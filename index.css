@@ -22,7 +22,7 @@ body {
   
   .nav a:hover {
     color: #c5cae9;
-    transform: rotate(6deg);
+    transform: rotate(1deg);
   }
   
   .nav {
@@ -67,6 +67,16 @@ body {
     border-radius: 25px;
     font-size: 1.18rem;
     display: inline-block;
+    transition: all 0.7s ease;
+  }
+
+  .button:hover {
+    color: chartreuse;
+    transform: rotate(360deg);
+  }
+
+  .button:active {
+    color:red;
   }
 
   .features {
